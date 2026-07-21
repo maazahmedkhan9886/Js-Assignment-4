@@ -17,10 +17,3 @@ else if (customer == "non-member") {
 else {
     alert("Invalid customer type");
 }
-// Question 7: Display the Discount Amount and Final Price (done in same js as q7 is the output of q6)
-
-let finalPrice = amount - discount;
-
-alert("Discount: $" + discount.toFixed(2) +
-    "\nFinal Price: $" + finalPrice.toFixed(2));
-
